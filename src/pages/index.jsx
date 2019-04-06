@@ -71,32 +71,32 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="Lambda Sprint"
+            link="https://raythurman2386.github.io/Sprint-Challenge--User-Interface/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            This project is my first sprint challenge at Lambda School.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            title="Outernet"
+            link="https://raythurman2386.github.io/Outernet/"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            Current project for Outernet Broadband from Palmyra Indiana.
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            title="Great Idea"
+            link="https://raythurman2386.github.io/responsive-web-design-I/"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            Great Idea responsive web design project for Lambda School.
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            title="Task List"
+            link="https://react-task-list.netlify.com/"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            My first leap into React a basic task list project.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
