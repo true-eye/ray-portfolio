@@ -107,9 +107,9 @@ const Index = () => (
           <AboutSub>Current Lambda School full stack web student, excited for the future.</AboutSub>
         </AboutHero>
         <AboutDesc>
-          Hi, my name is Raymond Thurman. I am a Full Stack Web Developer. Before I started
-          at Lambda School I spent ten years in the United States Army and led a very successful military career before I 
-          was medically discharged. Now I am a very ambitious student ready for the next big career change to come my way.
+          Hi, my name is Raymond Thurman. I am a Full Stack Web Developer. Before I started at Lambda School I spent ten
+          years in the United States Army and led a very successful military career before I was medically discharged.
+          Now I am a very ambitious student ready for the next big career change to come my way.
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -122,7 +122,7 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 Gatsby Portfolio Cara.{' '}
+          &copy; 2019 Gatsby Portfolio.{' '}
           <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
         </Footer>
       </Contact>
