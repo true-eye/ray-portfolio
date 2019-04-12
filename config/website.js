@@ -10,8 +10,8 @@ module.exports = {
   siteUrl: 'https://raythurman.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logo.png', // Used for SEO and manifest
-  siteDescription: 'Full stack web and software developer',
-  author: 'Ray Thurman', // Author for schema.org JSONLD
+  siteDescription: 'Raymond Thurman is a web developer based out of Corydon Indiana for all of your web and app needs.',
+  author: 'Ray Thurman, Corydon Indiana', // Author for schema.org JSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   userTwitter: '@raythurman2386', // Twitter Username
