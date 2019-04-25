@@ -118,14 +118,13 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Shoot an <a href="mailto:raymondthurman5@gmail.com">Email</a> or find me on other platforms:{' '}
-            <a href="https://twitter.com/raythurman2386">Twitter</a> {', '}
-            <a href="https://www.facebook.com/rayraysfunhouse">Facebook</a> &{' '}
+            <a href="https://twitter.com/raythurman2386">Twitter,</a> {' '}
+            <a href="https://www.facebook.com/rayraysfunhouse">Facebook</a> {'& '}
             <a href="https://www.linkedin.com/in/raymond-thurman-5a941484/">LinkedIn</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 Gatsby Portfolio.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
+          &copy; Thurman Media.
         </Footer>
       </Contact>
     </Parallax>
