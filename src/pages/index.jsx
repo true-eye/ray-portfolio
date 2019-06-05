@@ -31,31 +31,31 @@ const ProjectsWrapper = styled.div`
     grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
-`
+`;
 
 const AboutHero = styled.div`
   ${tw`flex flex-col lg:flex-row items-center mt-8`};
-`
+`;
 
 const Avatar = styled.img`
   ${tw`rounded-full w-32 xl:w-48 shadow-lg h-auto`};
-`
+`;
 
 const AboutSub = styled.span`
   ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
-`
+`;
 
 const AboutDesc = styled.p`
   ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
-`
+`;
 
 const ContactText = styled.p`
   ${tw`text-grey-light font-sans text-xl md:text-2xl lg:text-3xl`};
-`
+`;
 
 const Footer = styled.footer`
   ${tw`text-center text-grey absolute pin-b p-6 font-sans text-md lg:text-lg`};
-`
+`;
 
 const Index = () => (
   <>
@@ -71,11 +71,11 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Lambda Sprint"
-            link="https://raythurman2386.github.io/Sprint-Challenge--User-Interface/"
+            title="AIR fitness"
+            link="https://airfitness-raymond.netlify.com/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my first sprint challenge at Lambda School.
+            This project is my first build week project from Lambda School.
           </ProjectCard>
           <ProjectCard
             title="Outernet"
@@ -109,8 +109,8 @@ const Index = () => (
         <AboutDesc>
           Hi, my name is Raymond Thurman. I am a Full Stack Web Developer. Before I started at Lambda School I spent ten
           years in the United States Army and led a very successful military career before I was medically discharged.
-          Now I am a very ambitious trainee ready for the next big career change to come my way. Some of the current technologies I use include:
-           HTML5, CSS3, LESS, JavaScript, React, and Python.
+          Now I am a very ambitious trainee ready for the next big career change to come my way. Some of the current
+          technologies I use include: HTML5, CSS3, LESS, JavaScript, React, and Python.
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -118,17 +118,15 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Shoot an <a href="mailto:raymondthurman5@gmail.com">Email</a> or find me on other platforms:{' '}
-            <a href="https://twitter.com/raythurman2386">Twitter,</a> {' '}
+            <a href="https://twitter.com/raythurman2386">Twitter,</a>{' '}
             <a href="https://www.facebook.com/rayraysfunhouse">Facebook</a> {'& '}
             <a href="https://www.linkedin.com/in/raymond-thurman-5a941484/">LinkedIn</a>
           </ContactText>
         </Inner>
-        <Footer>
-          &copy; Thurman Media.
-        </Footer>
+        <Footer>&copy; Thurman Media.</Footer>
       </Contact>
     </Parallax>
   </>
-)
+);
 
 export default Index
