@@ -31,34 +31,34 @@ const ProjectsWrapper = styled.div`
     grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
-`;
+`
 
 const AboutHero = styled.div`
   ${tw`flex flex-col lg:flex-row items-center mt-8`};
-`;
+`
 
 const Avatar = styled.img`
   ${tw`rounded-full w-32 xl:w-48 shadow-lg h-auto`};
-`;
+`
 
 const AboutSub = styled.span`
   ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
-`;
+`
 
 const AboutDesc = styled.p`
   ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
-`;
+`
 
 const ContactText = styled.p`
   ${tw`text-grey-light font-sans text-xl md:text-2xl lg:text-3xl`};
-`;
+`
 
 const Footer = styled.footer`
   ${tw`text-center text-grey absolute pin-b p-6 font-sans text-md lg:text-lg`};
-`;
+`
 
 const Index = () => (
-  <>
+  <React.Fragment>
     <Layout />
     <Parallax pages={5}>
       <Hero offset={0}>
@@ -71,31 +71,34 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="AIR fitness"
-            link="https://airfitness-raymond.netlify.com/"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-          >
+            title='Github'
+            link='https://github.com/raythurman2386'
+            bg='linear-gradient(to right, crimson 0%, darkred 100%)'>
+            If you would like to see any of my code for my projects, or would just like to take a look at my GitHub
+            activity
+          </ProjectCard>
+          <ProjectCard
+            title='AIR fitness'
+            link='https://airfitness-raymond.netlify.com/'
+            bg='linear-gradient(to right, #D4145A 0%, #FBB03B 100%)'>
             This project is my first build week project from Lambda School.
           </ProjectCard>
           <ProjectCard
-            title="Outernet"
-            link="https://raythurman2386.github.io/Outernet/"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-          >
+            title='Outernet'
+            link='https://raythurman2386.github.io/Outernet/'
+            bg='linear-gradient(to right, #662D8C 0%, #ED1E79 100%)'>
             Current project for Outernet Broadband from Palmyra Indiana.
           </ProjectCard>
           <ProjectCard
-            title="Great Idea"
-            link="https://raythurman2386.github.io/responsive-web-design-I/"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-          >
-            Great Idea responsive web design project for Lambda School.
+            title='Movie Time'
+            link='https://www.ray-movietime.netlify.com'
+            bg='linear-gradient(to right, #009245 0%, #FCEE21 100%)'>
+            A movie database that I made using React, CSS Grid, React Router and Styled Components.
           </ProjectCard>
           <ProjectCard
-            title="Task List"
-            link="https://react-task-list.netlify.com/"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
-          >
+            title='Task List'
+            link='https://react-task-list.netlify.com/'
+            bg='linear-gradient(to right, #D585FF 0%, #00FFEE 100%)'>
             My first leap into React a basic task list project.
           </ProjectCard>
         </ProjectsWrapper>
@@ -103,7 +106,7 @@ const Index = () => (
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="Ray Thurman" />
+          <Avatar src={avatar} alt='Ray Thurman' />
           <AboutSub>Current Lambda School full stack web student, excited for the future.</AboutSub>
         </AboutHero>
         <AboutDesc>
@@ -118,15 +121,15 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Shoot an <a href="mailto:raymondthurman5@gmail.com">Email</a> or find me on other platforms:{' '}
-            <a href="https://twitter.com/raythurman2386">Twitter,</a>{' '}
-            <a href="https://www.facebook.com/rayraysfunhouse">Facebook</a> {'& '}
-            <a href="https://www.linkedin.com/in/raymond-thurman-5a941484/">LinkedIn</a>
+            <a href='https://twitter.com/raythurman2386'>Twitter,</a>{' '}
+            <a href='https://www.facebook.com/rayraysfunhouse'>Facebook</a> {'& '}
+            <a href='https://www.linkedin.com/in/raymond-thurman-5a941484/'>LinkedIn</a>
           </ContactText>
         </Inner>
         <Footer>&copy; Thurman Media.</Footer>
       </Contact>
     </Parallax>
-  </>
-);
+  </React.Fragment>
+)
 
 export default Index
