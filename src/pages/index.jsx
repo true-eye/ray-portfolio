@@ -79,7 +79,7 @@ const Index = () => (
 					</ProjectCard>
 					<ProjectCard
 						title='Movie Time'
-						link='ray-movietime.netlify.com'
+						link='www.ray-movietime.netlify.com'
 						bg='linear-gradient(to right, #009245 0%, #FCEE21 100%)'>
 						A movie database that I made using React, CSS Grid, React Router and Styled Components.
 					</ProjectCard>
