@@ -73,10 +73,9 @@ const Index = () => (
 					</ProjectCard>
 					<ProjectCard
 						title='Outernet'
-						link='https://raythurman2386.github.io/Outernet/'
-						disabled
+						link='https://github.com/raythurman2386/Outernet'
 						bg='linear-gradient(to right, #662D8C 0%, #ED1E79 100%)'>
-						Current project for Outernet Broadband from Palmyra Indiana.
+						Current project for Outernet Broadband from Palmyra Indiana. Click here to see the code.
 					</ProjectCard>
 					<ProjectCard
 						title='Movie Time'
