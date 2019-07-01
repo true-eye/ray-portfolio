@@ -74,12 +74,13 @@ const Index = () => (
 					<ProjectCard
 						title='Outernet'
 						link='https://raythurman2386.github.io/Outernet/'
+						disabled
 						bg='linear-gradient(to right, #662D8C 0%, #ED1E79 100%)'>
 						Current project for Outernet Broadband from Palmyra Indiana.
 					</ProjectCard>
 					<ProjectCard
 						title='Movie Time'
-						link='www.ray-movietime.netlify.com'
+						link='https://ray-movietime.netlify.com'
 						bg='linear-gradient(to right, #009245 0%, #FCEE21 100%)'>
 						A movie database that I made using React, CSS Grid, React Router and Styled Components.
 					</ProjectCard>
