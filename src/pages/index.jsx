@@ -143,10 +143,10 @@ const Index = () => (
           Hi, my name is Raymond Thurman. I am a Full Stack Web Developer.
           Before I started at Lambda School I spent ten years in the United
           States Army and led a very successful military career before I was
-          medically discharged. Now I am a very ambitious trainee ready for the
-          next big career change to come my way. Some of the current
-          technologies I use include: HTML5, CSS3, LESS, JavaScript, React, and
-          Python.
+          medically discharged. Some of the current technologies I use include:
+          HTML5, CSS3, LESS, Sass, JavaScript, React, Redux, Node, and Python.
+          If you are looking for a hardworking, driven, and motivated developer,
+          feel free to contact me down below.
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -163,7 +163,7 @@ const Index = () => (
             </a>
           </ContactText>
         </Inner>
-        <Footer>&copy; Thurman Media.</Footer>
+        <Footer>&copy; Ray Thurman</Footer>
       </Contact>
     </Parallax>
   </React.Fragment>
