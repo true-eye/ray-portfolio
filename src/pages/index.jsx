@@ -20,7 +20,7 @@ import Contact from '../views/Contact'
 import avatar from '../images/avatar.jpg'
 
 const ProjectsWrapper = styled.div`
-  ${tw`flex flex-wrap justify-between mt-8`};
+  ${tw`flex flex-wrap justify-between mt-4`};
   display: grid;
   grid-gap: 4rem;
   grid-template-columns: repeat(2, 1fr);
@@ -34,7 +34,7 @@ const ProjectsWrapper = styled.div`
 `
 
 const AboutHero = styled.div`
-  ${tw`flex flex-col lg:flex-row items-center mt-8`};
+  ${tw`flex flex-col lg:flex-row items-center mt-6`};
 `
 
 const Avatar = styled.img`
@@ -81,51 +81,47 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Ray.
         </BigTitle>
-        <Subtitle>I'm a Full Stack Web and Software Developer.</Subtitle>
+        <Subtitle>I'm a Full Stack Web Developer.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title='Team Builder'
-            link='https://theteambuilder.netlify.com/'
-            bg='linear-gradient(to right, #D4145A 0%, #FBB03B 100%)'
+            title="Team Builder"
+            link="https://github.com/raythurman2386/team-builder-full-stack"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            Team building project to keep track of what roles you have filled
-            for your current project
+            Full Stack web app utilizing: React, Express, Node, Postgres and Styled Components. Keeps track of
+            technicians and what jobs they are working on.
           </ProjectCard>
           <ProjectCard
-            title='Outernet'
-            link='https://raythurman2386.github.io/OuternetReact/'
-            bg='linear-gradient(to right, #662D8C 0%, #ED1E79 100%)'
+            title="Mern Lift Tracker"
+            link="https://github.com/raythurman2386/mern-exercise"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            Current project for Outernet Broadband from Palmyra Indiana.
+            Full Stack MERN App built to track workouts by sets and reps. Uses MongoDB, React, Express, NodeJS, and
+            Bootstrap 4.
           </ProjectCard>
           <ProjectCard
-            title='Movie Time'
-            link='https://ray-movietime.netlify.com'
-            bg='linear-gradient(to right, #009245 0%, #FCEE21 100%)'
+            title="Movie Time"
+            link="https://ray-movietime.netlify.com"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            A movie database that I made using React, CSS Grid, React Router and
-            Styled Components.
+            A movie database that I made using React, CSS Grid, React Router and Styled Components.
           </ProjectCard>
           <ProjectCard
-            title='Dev Desk'
-            link='https://dev-desk.netlify.com/'
-            bg='linear-gradient(to right, #D585FF 0%, #00FFEE 100%)'
+            title="Dev Desk"
+            link="https://dev-desk.netlify.com/"
+            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            Second build week project at Lambda School. Students or helpers can
-            login and submit help desk tickets or help resolve helpdesk tickets.
+            Second build week project at Lambda School. Students or helpers can login and submit help desk tickets or
+            help resolve helpdesk tickets.
           </ProjectCard>
         </ProjectsWrapper>
         <ProjSub>
-          If you would like to see any of my code for my projects, or would just
-          like to take a look at my GitHub activity, <br />
-          <a
-            href='https://github.com/raythurman2386'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
+          If you would like to see any of my code for my projects, or would just like to take a look at my GitHub
+          activity, <br />
+          <a href="https://github.com/raythurman2386" target="_blank" rel="noopener noreferrer">
             Click Here
           </a>
         </ProjSub>
@@ -133,34 +129,25 @@ const Index = () => (
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt='Ray Thurman' />
-          <AboutSub>
-            Current Lambda School full stack web student, excited for the
-            future.
-          </AboutSub>
+          <Avatar src={avatar} alt="Ray Thurman" />
+          <AboutSub>Current Lambda School full stack web student, excited for the future.</AboutSub>
         </AboutHero>
         <AboutDesc>
-          Hi, my name is Raymond Thurman. I am a Full Stack Web Developer.
-          Before I started at Lambda School I spent ten years in the United
-          States Army and led a very successful military career before I was
-          medically discharged. Some of the current technologies I use include:
-          HTML5, CSS3, LESS, Sass, JavaScript, React, Redux, Node, and Python.
-          If you are looking for a hardworking, driven, and motivated developer,
-          feel free to contact me down below.
+          Hi, my name is Raymond Thurman. I am a Full Stack Web Developer. Before I started at Lambda School I spent ten
+          years in the United States Army and led a very successful military career before I was medically discharged.
+          Some of the current technologies I use include: HTML5, CSS3, LESS, Sass, JavaScript, React, Redux, Node, and
+          Python. If you are looking for a hardworking, driven, and motivated developer, feel free to contact me down
+          below.
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Shoot an <a href='mailto:raymondthurman5@gmail.com'>Email</a> or
-            find me on other platforms:{' '}
-            <a href='https://twitter.com/raythurman2386'>Twitter,</a>{' '}
-            <a href='https://www.facebook.com/rayraysfunhouse'>Facebook</a>{' '}
-            {'& '}
-            <a href='https://www.linkedin.com/in/raymond-thurman-5a941484/'>
-              LinkedIn
-            </a>
+            Shoot an <a href="mailto:raymondthurman5@gmail.com">Email</a> or find me on other platforms:{' '}
+            <a href="https://twitter.com/raythurman2386">Twitter,</a>{' '}
+            <a href="https://www.facebook.com/rayraysfunhouse">Facebook</a> &
+            <a href="https://www.linkedin.com/in/raymond-thurman-5a941484/">LinkedIn</a>
           </ContactText>
         </Inner>
         <Footer>&copy; Ray Thurman</Footer>
