@@ -6,12 +6,11 @@ module.exports = {
   siteTitle: 'Ray Thurman - Portfolio', // Navigation and Site Title
   siteTitleAlt: 'Thurman Web Development', // Alternative Site title for SEO
   siteTitleShort: 'RT', // short_name for manifest
-  siteHeadline: 'Full stack web and software developer', // Headline for schema.org JSONLD
+  siteHeadline: 'Full stack web developer', // Headline for schema.org JSONLD
   siteUrl: 'https://raythurman.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logo.png', // Used for SEO and manifest
-  siteDescription:
-    'Raymond Thurman is a web developer based out of Corydon Indiana for all of your web and app needs.',
+  siteDescription: 'Raymond Thurman is a web developer based out of Corydon Indiana for all of your web and app needs.',
   author: 'Ray Thurman, Corydon Indiana', // Author for schema.org JSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
@@ -22,5 +21,5 @@ module.exports = {
 
   // Manifest and Progress color
   themeColor: tailwind.colors.orange,
-  backgroundColor: tailwind.colors.blue
+  backgroundColor: tailwind.colors.blue,
 }
